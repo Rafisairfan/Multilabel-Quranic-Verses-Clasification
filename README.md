@@ -18,8 +18,8 @@ Sebelumnya saya juga sempat menggunakan word2vec tetapi memberikan hasil yang ku
 
 ## 2.  Modeling
 Karena teradapat 2 model yaitu model kombinasi CNN-LSTM dan Bi-LSTM, maka arsitektur kedua model tersebut juga berbeda.
-C-LSTM :  Embedding Layer-CNN-LSTM-Dropout-Output Layer
-Bi-LSTM :  Embedding Layer-Bi LSTM-Dropout-Output Layer
+- C-LSTM :  Embedding Layer-CNN-LSTM-Dropout-Output Layer
+- Bi-LSTM :  Embedding Layer-Bi LSTM-Dropout-Output Layer
 
 Kedua model menggunakan total layer yang tidak jauh berbeda agar perbandingan kedua model adil. Kedua model menggunakan activation softmax karena untuk kasus multilabel softmax jauh lebih baik dibandingkan activation function lainnya
 
